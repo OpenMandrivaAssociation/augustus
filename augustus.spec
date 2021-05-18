@@ -1,5 +1,5 @@
 Name:           augustus
-Version:        1.6.0
+Version:        3.0.1
 Release:        1
 Summary:        An open source re-implementation of Caesar III
 License:        MIT
