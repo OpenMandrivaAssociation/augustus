@@ -11,6 +11,7 @@ BuildRequires:  cmake
 BuildRequires:  pkgconfig(sdl2)
 BuildRequires:	pkgconfig(SDL2_mixer) 
 BuildRequires:  pkgconfig(libpng)
+BuildRequires:  pkgconfig(expat)
 
 %description
 Augustus is an open source re-implementation of Caesar III.
@@ -49,6 +50,7 @@ Augustus optionally supports the high-quality MP3 files once provided on the Sie
 
 %files
 %{_bindir}/%{name}
-#{_datadir}/applications/com.github.bvschaik.augustus.desktop
-#{_datadir}/icons/hicolor/*/apps/com.github.bvschaik.julius.png
-#{_datadir}/metainfo/com.github.bvschaik.julius.metainfo.xml
+%{_datadir}/applications/com.github.keriew.augustus.desktop
+%{_datadir}/augustus-game/assets/
+%{_datadir}/icons/hicolor/*/apps/com.github.keriew.augustus.png
+%{_datadir}/metainfo/com.github.keriew.augustus.metainfo.xml
