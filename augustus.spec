@@ -1,6 +1,6 @@
 Name:           augustus
 Version:        3.2.0
-Release:        1
+Release:        2
 Summary:        An open source re-implementation of Caesar III
 License:        MIT
 Group:          Games/Other
